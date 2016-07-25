@@ -1,0 +1,106 @@
+main {
+    width: 940px;
+    height: 500px;
+}
+h2 {
+    font: 16px helvetica, arial, freesans, clean, sans-serif;
+    line-height: 1.4em;
+    color: #ccc;
+    font-weight: bold;
+}
+h3 {
+    font: 16px helvetica, arial, freesans, clean, sans-serif;
+    line-height: 1.4em;
+    color: #53565a;
+    font-weight: bold;
+}
+body {
+    font: 13px helvetica, arial, freesans, clean, sans-serif;
+    line-height: 1.4em;
+    background-color: #fff;
+    color: #333333;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3f3f3;
+    padding: 15px 20px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 47px;
+    width: 95%;
+}
+header ul {
+    display: flex;
+    list-style: none;
+}
+header li {
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 13px;
+}
+header li a {
+    text-decoration: none;
+    color: black;
+}
+header li a:hover {
+    color: #4183c4;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+.gallery-container {
+    margin: 20px;
+}
+.gallery-container-border {
+    width: 424px;
+    border-style: solid;
+    border-color: #ccc;
+    padding: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+}
+.gallery-item {
+    text-decoration: none;
+    border-color: #ccc;
+    display: flex;
+}
+.number {
+    font: 16px helvetica, arial, freesans, clean, sans-serif;
+    font-weight: bold;
+    line-height: 1.4em;
+    background-color: #fff;
+    color: #cacaca;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 424px;
+}
+.divider {
+  border-style: solid;
+  color: #ccc;
+  weight: .5px;
+  width: 100%;
+}
+
+.triangle {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 8px 8px 0 8px;
+border-color: #cacaca transparent transparent transparent;
+}
